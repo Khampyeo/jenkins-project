@@ -8,11 +8,11 @@ pipeline {
     stages {
 
         stage('Checkout') {
-  steps {
-    git url: 'https://github.com/your-org/fastapi-cicd.git',
-        credentialsId: 'github-creds'
-  }
-}
+          steps {
+            git url: 'https://github.com/your-org/fastapi-cicd.git',
+            credentialsId: 'github-creds'
+            }
+        }
 
         stage('Quality Checks') {
             parallel {
