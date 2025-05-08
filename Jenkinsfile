@@ -9,8 +9,8 @@ pipeline {
 
         stage('Checkout') {
           steps {
-            git url: 'https://github.com/your-org/fastapi-cicd.git',
-            credentialsId: 'github-creds'
+            git url: 'https://github.com/Khampyeo/fastapi-cicd.git',
+            credentialsId: '5345234521'
             }
         }
 
