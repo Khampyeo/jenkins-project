@@ -1,0 +1,40 @@
+# Byte-compiled / cache / logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python packages
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE / Editor config
+.vscode/
+.idea/
+*.swp
+
+# Test reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Docker / Jenkins
+*.pid
+*.db
+*.sock
+.DS_Store
+secrets.env
+.env
+*.tar
+*.zip
+
+# Jenkins workspace artifacts (if mounted locally)
+workspace/
